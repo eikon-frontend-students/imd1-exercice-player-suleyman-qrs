@@ -6,38 +6,135 @@
     <title>Player Musique</title>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="styles.css" />
+    <meta name="description" content="Un lecteur de musique simple et élégant." />
+    <meta property="og:title" content="Player Musique" />
+    <meta property="og:description" content="Un lecteur de musique simple et élégant." />
+    <meta property="og:image" content="path/to/cover-image.jpg" />
+    <meta property="og:url" content="http://example.com" />
   </head>
   <body>
-    <img id="cover" alt="cover" />
+    <header>
+      <div class="radiolable">TRN_TCLAS_B00095</div>
+      <div class="radio-wrapper">
+        <h2 class="radiohead">RADIO</h2>
+      </div>
+    </header>
+      <div class="test-wrapper">
+        <div class="mp-track-wrapper">
+          <div tmplayer-init="multitrack" class="mp-track">
+            <div class="sp-details-wrapper">
+              <div class="player-preview">
+                <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6672e00f35890ffe05d94fe7_morro.png" loading="lazy" tmplayer-element="thumbnail" alt="Thumbnail" class="sp-thumbnail" tmplayer-interaction="monitor-state">
+              </div>
+              <div class="sp-title-wrapper">
+                <div tmplayer-element="title" class="sp-artist-name" tmplayer-interaction="monitor-state">New York Vibe</div>
+                <div tmplayer-element="artist" class="sp-title" tmplayer-interaction="monitor-state">Truemuzic</div>
+              </div>
+            </div>
+            <div class="mp-controla-wrapper">
+              <div class="div-block-13">
+                <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6671a10951c1810b8e597dd9_Group%20156.png" loading="lazy" tmplayer-button="previous" alt="Previous" class="mp-previous">
+              </div>
+              <div class="mp-media-player-bar-wrapper">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div tmplayer-element="duration" class="mp-duration">4:19</div>
+          </div>
+          <div class="div-block-13 left"><img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6671a109f6b0921e7bf2f6c0_Group%20158.png" loading="lazy" tmplayer-button="pause" alt="" class="mp-pause" style="display: none;">
+            <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6671a10939078f7fa6d71c06_Group%20157.png" loading="lazy" tmplayer-button="play" alt="" class="mp-play">
+            <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6671a10982106ac7253d433a_Group%20155.png" loading="lazy" tmplayer-button="next" alt="" class="mp-next"></div>
+          </div>
+        </div>
+        <div class="stations-list">
+          <div tmplayer-action="toggle" tmplayer-parent="multitrack" class="mp-single-track clickable-item is-current">
+            <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/66719b94399d946fc28a48df_Group%20130.png" loading="lazy" alt="" class="img-barcode inv">
+            <div>107.3 morro rock radio</div><div class="mp-track-time-wrapper"><img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/666af2245cb6e7d54094d702_audio-active.svg" height="40" width="20" tmplayer-interaction="monitor-state" alt="" class="mp-audio-bar is-current">
+              <div tmplayer-interaction="populate-duration" class="mp-track-time on">4:19</div></div><div tmplayer-element="audio" class="true-media-player-single-track" style="display: none;" data-true-audio-player-song-id="m6xwd1f3oddtdwssc5g">
+                <div tmplayer-meta="audio-url" class="mp-track-url">https://super-macaron-fa8f08.netlify.app/Johnny_Silverhand_Theme.mp3</div><img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6672e00f35890ffe05d94fe7_morro.png" loading="lazy" tmplayer-meta="thumbnail" alt="" class="cover">
+                <div tmplayer-meta="artist" class="mp-track-artist">Truemuzic</div><div tmplayer-meta="title" class="mp-track-title">New York Vibe</div></div></div><div tmplayer-action="toggle" tmplayer-parent="multitrack" class="mp-single-track clickable-item"><img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/66719b94399d946fc28a48df_Group%20130.png" loading="lazy" alt="" class="img-barcode">
+                  <div>98.7 body heat radio</div>
+                  <div tmplayer-element="audio" class="true-media-player-single-track" style="display: none;" data-true-audio-player-song-id="m6xwd1f5cbhhseften4"><div tmplayer-meta="audio-url" class="mp-track-url">https://super-macaron-fa8f08.netlify.app/really.mp3</div><img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6672e3b6391f56f2fbf94dc2_body%20heat.png" loading="lazy" tmplayer-meta="thumbnail" alt="" class="mp-track-thumbnail"><div tmplayer-meta="artist" class="mp-track-artist">Truemuzic</div>
+                  <div tmplayer-meta="title" class="mp-track-title">Voicemail</div>
+                </div>
+                <div class="mp-track-time-wrapper">
+                  <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/666af2245cb6e7d54094d702_audio-active.svg" height="40" width="20" tmplayer-interaction="monitor-state" alt="" class="mp-audio-bar">
+                  <div tmplayer-interaction="populate-duration" class="mp-track-time">0:33</div></div></div><div tmplayer-action="toggle" tmplayer-parent="multitrack" class="mp-single-track clickable-item">
+                    <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/66719b94399d946fc28a48df_Group%20130.png" loading="lazy" alt="" class="img-barcode">
+                    <div>103.5 radio pebkac</div><div tmplayer-element="audio" class="true-media-player-single-track" style="display: none;" data-true-audio-player-song-id="m6xwd1f51rnn1ixk485">
+                      <div tmplayer-meta="audio-url" class="mp-track-url">https://super-macaron-fa8f08.netlify.app/pebkac.mp3</div>
+                      <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6672e66f0df905b9576200a2_pebaks.png" loading="lazy" tmplayer-meta="thumbnail" alt="" class="mp-track-thumbnail">
+                      <div tmplayer-meta="artist" class="mp-track-artist">Truemuzic</div><div tmplayer-meta="title" class="mp-track-title">Cae Keys</div>
+                    </div>
+                    <div class="mp-track-time-wrapper">
+                      <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/666af2245cb6e7d54094d702_audio-active.svg" height="40" width="20" tmplayer-interaction="monitor-state" alt="" class="mp-audio-bar">
+                      <div tmplayer-interaction="populate-duration" class="mp-track-time">0:29</div>
+                    </div>
+                  </div>
+                  <div tmplayer-action="toggle" tmplayer-parent="multitrack" class="mp-single-track clickable-item">
+                        <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/66719b94399d946fc28a48df_Group%20130.png" loading="lazy" alt="" class="img-barcode"><div>89.7 GROWL FM</div>
+                        <div tmplayer-element="audio" class="true-media-player-single-track" style="display: none;" data-true-audio-player-song-id="m6xwd1f6c9f30ot81zp">
+                          <div tmplayer-meta="audio-url" class="mp-track-url">https://super-macaron-fa8f08.netlify.app/Cp_Growl.mp3</div>
+                          <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6672e719c0d6b54705b4d24c_growl.png" loading="lazy" tmplayer-meta="thumbnail" alt="" class="mp-track-thumbnail">
+                          <div tmplayer-meta="artist" class="mp-track-artist">Truemuzic</div>
+                          <div tmplayer-meta="title" class="mp-track-title">Cae Keys</div>
+                        </div>
+                        <div class="mp-track-time-wrapper">
+                          <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/666af2245cb6e7d54094d702_audio-active.svg" height="40" width="20" tmplayer-interaction="monitor-state" alt="" class="mp-audio-bar"><div tmplayer-interaction="populate-duration" class="mp-track-time">0:29</div>
+                        </div>
+                      </div>
+                      <div tmplayer-action="toggle" tmplayer-parent="multitrack" class="mp-single-track clickable-item">
+                        <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/66719b94399d946fc28a48df_Group%20130.png" loading="lazy" alt="" class="img-barcode">
+                        <div>88.9 PACIFIC DREAMS</div>
+                        <div tmplayer-element="audio" class="true-media-player-single-track" style="display: none;" data-true-audio-player-song-id="m6xwd1f6j1178m4f69g"><div tmplayer-meta="audio-url" class="mp-track-url">https://super-macaron-fa8f08.netlify.app/READY.mp3</div>
+                        <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/6671991a1e159a02d5fb0cfd_pacific.png" loading="lazy" tmplayer-meta="thumbnail" alt="" class="mp-track-thumbnail">
+                        <div tmplayer-meta="artist" class="mp-track-artist">Truemuzic</div><div tmplayer-meta="title" class="mp-track-title">Cae Keys</div></div><div class="mp-track-time-wrapper">
+                          <img src="https://cdn.prod.website-files.com/666af2245cb6e7d54094d64f/666af2245cb6e7d54094d702_audio-active.svg" height="40" width="20" tmplayer-interaction="monitor-state" alt="" class="mp-audio-bar">
+                          <div tmplayer-interaction="populate-duration" class="mp-track-time">0:29</div>
 
-    <h3 id="track-title">Titre</h3>
-    <p id="track-artist">Artiste</p>
-    <div>
-      <span id="track-current-time">0:00</span>
-      /
-      <span id="track-duration">0:00</span>
-    </div>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+      
+      <img id="cover" alt="Couverture de l'album" />
+      <h1 id="track-title">Titre</h1>
+      <p id="track-artist">Artiste</p>
 
-    <div>
-      <button id="prev">Précédent</button>
-      <button id="play-pause">
-        <span id="play-icon">▶️</span>
-        <span id="pause-icon">⏸️</span>
-      </button>
-      <button id="next">Suivant</button>
-      <button id="like">❤️</button>
-    </div>
 
-    <input type="range" id="progress-bar" value="0" min="0" step="1" />
-    <input type="range" id="volume" min="0" max="1" step="0.01" value="1" />
+      <div>
+        <span id="track-current-time">0:00</span>
+        /
+        <span id="track-duration">0:00</span>
+      </div>
 
-    <ul id="playlist">
-      <template id="track-template">
-        <li class="track">
-          <h4 class="track-title">Titre</h4>
-          <p class="track-artist">Artiste</p>
-        </li>
-      </template>
-    </ul>
+      <div>
+        <button id="prev" aria-label="Précédent">Précédent</button>
+        <button id="play-pause" aria-label="Lecture/Pause">
+          <span id="play-icon">▶️</span>
+          <span id="pause-icon">⏸️</span>
+        </button>
+        <button id="next" aria-label="Suivant">Suivant</button>
+        <button id="like" aria-label="Aimer">❤️</button>
+      </div>
+
+      <input type="range" id="progress-bar" value="0" min="0" step="1" aria-label="Barre de progression" />
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1" aria-label="Volume" />
+
+      <ul id="playlist">
+        <template id="track-template">
+          <li class="track">
+            <div class="track-title">Titre</div>
+            
+            <div class="track-artist">Artiste</div>
+          </li>
+        </template>
+      </ul>
+
+    <footer>
+      <p>&copy; 2025 Player Musique. Tous droits réservés.</p>
+    </footer>
   </body>
 </html>
